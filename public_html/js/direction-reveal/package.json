@@ -1,0 +1,92 @@
+{
+  "_from": "direction-reveal",
+  "_id": "direction-reveal@1.3.4",
+  "_inBundle": false,
+  "_integrity": "sha512-CRL4kGWLjlK/YToHi8wJfxvlnIjKPBdAXxtnRMcBilfetBaXfILZJcxUbh9fxvrj4HdrXME/j7i2Eua4up4Riw==",
+  "_location": "/direction-reveal",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "direction-reveal",
+    "name": "direction-reveal",
+    "escapedName": "direction-reveal",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/direction-reveal/-/direction-reveal-1.3.4.tgz",
+  "_shasum": "696908f9f51de6a4d0530ad79e860db0440c1a81",
+  "_spec": "direction-reveal",
+  "_where": "C:\\xampp\\htdocs\\foro-go\\laravel",
+  "author": {
+    "name": "Nigel O Toole",
+    "email": "pure@purestructure.com",
+    "url": "http://www.purestructure.com"
+  },
+  "bugs": {
+    "url": "https://github.com/NigelOToole/direction-reveal/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Direction aware content reveals.",
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.5.2",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.2.1",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-babel": "^6.1.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    }
+  },
+  "esnext": "scripts/direction-reveal.js",
+  "homepage": "https://github.com/NigelOToole/direction-reveal#readme",
+  "keywords": [
+    "javascript",
+    "es6",
+    "module",
+    "sass",
+    "css",
+    "reveal",
+    "hover",
+    "gallery",
+    "grid"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "module": "scripts/direction-reveal.js",
+  "name": "direction-reveal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NigelOToole/direction-reveal.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.3.4"
+}

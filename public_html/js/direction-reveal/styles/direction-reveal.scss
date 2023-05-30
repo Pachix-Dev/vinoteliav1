@@ -1,0 +1,88 @@
+@import 'variables';
+@import 'animations';
+
+
+// ----- Component -----
+.direction-reveal {}
+
+  .direction-reveal__card {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+  }
+
+    .direction-reveal__overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: 15px;
+      color: #fff;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, .6);
+    }
+
+    // .direction-reveal__anim--in is used to animate in hidden content, the default animation used on the overlay
+    // .direction-reveal__anim--out is used to animate out visible content
+    .direction-reveal__anim--in, .direction-reveal__anim--out {
+      animation-duration: $anim-duration;
+      animation-timing-function: $anim-easing-easeOutQuad;
+      animation-fill-mode: forwards;
+    }
+
+    .direction-reveal__anim--in {
+      transform: translate3d(0, -100%, 0); // Initial position before any animation i.e. hidden by default
+    }
+
+      .direction-reveal__title {
+        margin-top: 0;
+      }
+
+      .direction-reveal__text {
+        margin-bottom: 0;
+      }
+
+
+
+// ----- Layouts -----
+
+// 3x3 grid layout - flexbox
+.direction-reveal--3-grid-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -$grid-spacing;
+  margin-left: -$grid-spacing;
+
+  .direction-reveal__card {
+    border: $grid-spacing solid transparent; // Transparent border used for spacing as this make direction detection more accurate as there is more area to detect.
+    @media (min-width: 576px) {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+  }
+
+}
+
+// 3x3 grid layout - CSS grid
+.direction-reveal--3-grid-cssgrid {
+  display: grid;
+  margin-right: -$grid-spacing;
+  margin-left: -$grid-spacing;
+
+  @media (min-width: 576px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .direction-reveal__card {
+    border: $grid-spacing solid transparent;
+  }
+}
+
+// Bootstrap grid
+.direction-reveal--grid-bootstrap {
+  .direction-reveal__card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}

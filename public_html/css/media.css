@@ -1,0 +1,686 @@
+
+@media only screen and (max-width: 1024px){
+   
+  
+}
+
+@media only screen and (max-width: 768px){
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}
+
+@media only screen and (max-width: 479px){
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}
+
+@media only screen and (max-width: 425px){
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}
+
+@media only screen and (max-width: 375px){
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+}
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen (-webkit-min-device-pixel-ratio: 2) {
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}}
+
+/* Portrait */
+@media only screen (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}
+
+/* Landscape */
+@media only screen (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}
+
+/* Portrait */
+@media only screen and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}
+
+/* Landscape */
+@media only screen (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only (-webkit-min-device-pixel-ratio: 3) {
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}
+
+/* Portrait */
+@media only screen (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+    
+    #app{
+        display: none;
+    }
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}
+
+/* Landscape */
+@media only screen (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
+    #app{
+        display: none;
+    }
+
+    #movilApp{
+        display: inherit;
+    }
+    .info-viaje{
+        width: 100% !important;   
+    }
+    .text-viaje{
+        width: 60% !important;
+    }
+    .info-viaje .text-viaje h2 {
+        color: #fff;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+    .numbers {
+        width: 100% !important;
+        min-height: 350px;
+        border: 1px solid;
+    }
+    .info-directora{
+        background: none !important;
+        width: 100% !important;
+        min-height: 250px !important;
+    }
+    .text-directora{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+}
